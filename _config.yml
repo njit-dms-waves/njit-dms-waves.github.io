@@ -1,10 +1,10 @@
 # --- General options --- #
 
 # Name of website
-title: My website
+title: Wave Propagation and Scattering at NJIT
 
 # Short description of your site
-description: A virtual proof that I'm awesome
+description: Homepage for the Wave Propagation and Scattering Group in the Department of Mathematical Sciences at NJIT.
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
@@ -20,11 +20,10 @@ description: A virtual proof that I'm awesome
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme"
+  About: "aboutme"
   Resources:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
-  Author's home: "http://deanattali.com"
+    - DMS Home: "http://math.njit.edu/"
+    - NJIT Home: "http://njit.edu/"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -66,12 +65,12 @@ author:
 # Uncomment the links you want to show in the footer and add your information to each link.
 # You can reorder the items to define the link order.
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
-social-network-links:
-  rss: true
-  email: "someone@example.com"
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
+#social-network-links:
+#  rss: true
+#  email: "someone@example.com"
+#  facebook: deanattali
+#  github: daattali
+#  twitter: daattali
 #  reddit: yourname
 #  linkedin: daattali
 #  xing: yourname
@@ -93,7 +92,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "njit-dms-waves.github.io"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 
@@ -127,15 +126,15 @@ url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
 # fb_comment_id: ""
 
 # To use Staticman comments, fill in repository, branch, and endpoint
-staticman:
-  repository : # GitHub username/repository eg. "daattali/beautiful-jekyll"
-  branch     : master # If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
-  endpoint   : # URL of your own deployment, with a trailing slash (will fallback to a public GitLab instance) eg. https://<your-api>/v3/entry/github/
-  reCaptcha:
+#staticman:
+#  repository : # GitHub username/repository eg. "daattali/beautiful-jekyll"
+#  branch     : master # If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
+#  endpoint   : # URL of your own deployment, with a trailing slash (will fallback to a public GitLab instance) eg. https://<your-api>/v3/entry/github/
+#  reCaptcha:
     # reCaptcha for Staticman (OPTIONAL, but recommended for spam protection)
     # If you use reCaptcha, you must also set these parameters in staticman.yml
-    siteKey  : # Use your own site key, you need to apply for one on Google
-    secret   : # ENCRYPT your password by going to https://staticman3.herokuapp.com/v3/encrypt/<your-site-secret>
+#    siteKey  : # Use your own site key, you need to apply for one on Google
+#    secret   : # ENCRYPT your password by going to https://staticman3.herokuapp.com/v3/encrypt/<your-site-secret>
 
 # --- Misc --- #
 

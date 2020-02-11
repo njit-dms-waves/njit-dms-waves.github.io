@@ -10,5 +10,3 @@ in scientific computing for electromagnetic and acoustic wave
 phenomena. Specific research areas include: inverse problems,
 nonlinear media, integral equation formulations, numerical quadrature,
 fast solution methods, and homogenization methods, among others.
-
-**Postdoc position** yadda yadda ...

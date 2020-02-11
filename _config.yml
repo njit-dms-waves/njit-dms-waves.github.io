@@ -1,10 +1,13 @@
 # --- General options --- #
 
 # Name of website
-title: Wave Propagation and Scattering at NJIT
+title: Wave Propagation and Scattering
 
 # Short description of your site
 description: Homepage for the Wave Propagation and Scattering Group in the Department of Mathematical Sciences at NJIT.
+
+# favicon name
+favicon: "favicon.ico"
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
@@ -20,18 +23,27 @@ description: Homepage for the Wave Propagation and Scattering Group in the Depar
 
 # List of links in the navigation bar
 navbar-links:
-  About: "aboutme"
+  About:
+   - Members: "members"
+   - Contact: "contact"
+  Research:
+    - Publications: "publications"
+    - Preprints: "preprints"
+  News: "news"
   Resources:
     - DMS Home: "http://math.njit.edu/"
     - NJIT Home: "http://njit.edu/"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/img/avatar-icon.png"
+#avatar: "/img/avatar-icon.png"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
 # title-img: /path/to/image
+
+# add a logo before the link in the top left
+navbar-firstlogo: /img/njit-logo.png
 
 # --- Background colour/image options --- #
 
@@ -59,17 +71,17 @@ footer-link-col: "#404040"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Some Person
+  name: Waves Group
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
 # You can reorder the items to define the link order.
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
-#social-network-links:
+social-network-links:
 #  rss: true
-#  email: "someone@example.com"
+  email: "askham@njit.edu"
 #  facebook: deanattali
-#  github: daattali
+  github: njit-dms-waves
 #  twitter: daattali
 #  reddit: yourname
 #  linkedin: daattali
@@ -160,6 +172,7 @@ markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
 paginate: 5
+paginate_path: "/news/page:num/"
 
 kramdown:
   input: GFM

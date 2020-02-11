@@ -8,9 +8,17 @@
         <span class="icon-bar"></span>
       </button>
       {%- if site.title-img -%}
-        <a class="navbar-brand navbar-brand-logo" href="{{ '' | absolute_url }}"><img src="{{ site.title-img }}"/></a>
-      {%- else -%}
-        <a class="navbar-brand" href="{{ '' | absolute_url }}">{{ site.title }}</a>
+	{% if site.navbar-firstlogo -%}
+      <img class="navbar-brand navbar-firstlogo" src="{{ site.navbar-firstlogo }}">
+      
+	{%- endif -%}
+        <a class="navbar-brand navbar-brand-logo vl" href="{{ '' | absolute_url }}"><img src="{{ site.title-img }}"/></a>
+	{%- else -%}
+	{% if site.navbar-firstlogo -%}
+	<img class="navbar-brand navbar-firstlogo" src="{{ site.navbar-firstlogo }}">
+	
+	{%- endif -%}
+        <a class="navbar-brand vl" href="{{ '' | absolute_url }}">{{ site.title }}</a>
       {%- endif -%}
     </div>
 
